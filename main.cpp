@@ -11,5 +11,10 @@ int main()
     cin >> num1 >> num2; 
     cout << "Numbers were " << num1 << " and " << num2 << endl;
 
+    int x,y;
+
+    cin >> x >> y;
+    cout << x + y << endl;
+
     return 0;
 }
