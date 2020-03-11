@@ -1,4 +1,9 @@
 language: cpp
 os: linux
+addons:
+  apt:
+    packages:
+      - cppcheck
 script:
-  - make
+  - cppcheck main.cpp
+  - scan-build make
