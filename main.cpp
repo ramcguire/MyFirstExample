@@ -16,3 +16,8 @@ int main()
 
     return 0;
 }
+
+int pointless() {
+    // this does nothing, never gets called
+    cout << "I'm pointless!" << endl;
+}
