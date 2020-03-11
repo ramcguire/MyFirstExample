@@ -1,6 +1,6 @@
 language: cpp
 os: linux
-install: pip install cppclean
+install: pip install cppclean --user
 addons:
   apt:
     packages:
