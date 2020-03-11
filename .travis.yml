@@ -1,9 +1,11 @@
 language: cpp
 os: linux
+install: pip install cppclean
 addons:
   apt:
     packages:
       - cppcheck
 script:
+  - cppclean main.cpp
   - cppcheck main.cpp
   - scan-build make
